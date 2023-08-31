@@ -1,0 +1,55 @@
+.Home {
+  position: relative;
+  display: grid;
+  grid-template-columns: 10rem auto 22rem;
+  gap: 10px;
+}
+
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4cb256;
+  --video: #4a4eb7;
+  --location: #ef5757;
+  --shedule: #e1ae4a;
+}
+
+@media screen and (min-width: 1200px) {
+  .Home {
+    grid-template-columns: 10rem auto 22rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Home {
+    grid-template-columns: 8rem auto 18rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Home {
+    margin-top: 30px;
+    grid-template-columns: 8rem auto 12rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ProfileSide {
+    position: absolute;
+    transform: translateX(-100%);
+    z-index: 10;
+  }
+}

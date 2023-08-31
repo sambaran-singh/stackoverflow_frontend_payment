@@ -1,0 +1,36 @@
+.home-container-1 {
+  min-height: 100vh;
+  max-width: 100bh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.home-container-2 {
+  /* max-width: 1100px; */
+  width: 100%;
+  border: 1px solid #d6d9dc;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+}
+
+.home-container-3 {
+  /* max-width: 1100px; */
+  width: 100%;
+  border: 1px solid #d6d9dc;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+@media screen and (max-width: 760px) {
+  .home-container-2 {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* .button {
+  background-color: orange;
+} */

@@ -1,0 +1,38 @@
+/* .PostSide {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  gap: 1rem;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+ */
+
+.PostSide {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  gap: 1rem;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+/* Responsive Styles for Phones */
+/* @media screen and (max-width: 767px) {
+  .PostSide {
+    margin-top: 10px;
+    margin-left: 0;
+    height: auto;
+    overflow: hidden;
+  }
+} */
+
+/* Responsive Styles for Tablets */
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .PostSide {
+    margin-top: 30px;
+  }
+} */
